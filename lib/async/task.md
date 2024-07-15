@@ -1,4 +1,4 @@
-A sequence of instructions, defined by a block, which is executed sequentially and managed by the scheduler. A task can be in one of the following states: `initialized`, `running`, `completed`, `failed`, `cancelled` or `stopped`.
+A sequence of instructions, defined by a block, which is executed sequentially and managed by the scheduler. A task can be in one of the following states: `initialized`, `running`, `completed`, `failed` or `stopped`.
 
 ```mermaid
 stateDiagram-v2
