@@ -11,7 +11,7 @@ When {ruby Async::Scheduler\#with\_timeout} is invoked with a block, it can rece
 
 ``` ruby
 Async do
-	Async::Scheduler.with_timeout(5) do |timeout|
+	Fiber.scheduler.with_timeout(5) do |timeout|
 		# Do some work that may take a while...
 		
 		if some_condition
